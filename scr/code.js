@@ -6,13 +6,13 @@ let basket = JSON.parse(localStorage.getItem("data")) || [];
 let generateDisplay = () => {
     return (display.innerHTML = displayItemsData
         .map((x) => {
-            let { id, title, content } = x;
+            let { id, titre, criteres } = x;
             let search = basket.find((x) => x.id === id) || [];
             return `
         <div id=item-id-${id} class="item">
-            <h4>${title}</h4>
+            <h4>${titre}</h4>
             <p>
-                ${content}
+                ${criteres}
             </p>
             <button onclick="add(${id})" ${search.item === undefined ? 0 : search.item}>
                 

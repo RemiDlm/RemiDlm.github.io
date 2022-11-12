@@ -89,8 +89,8 @@ cart {
 }
 
 .item {
-    border: 5px solid rgb(0, 0, 255);
-    background-color: yellow;
+    border: 5px solid rgb(7, 84, 7);
+    background-color: lightgreen;
 }
 
 /**
@@ -117,7 +117,7 @@ cart {
 }
 
 .cart-item {
-    border: 2px solid blue;
+    border: 2px solid rgb(7, 84, 7);
     margin-top: 10px;
 
 }

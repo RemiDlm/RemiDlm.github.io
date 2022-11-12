@@ -4,7 +4,7 @@ let empty = document.getElementById("empty");
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
-//console.log(basket);
+console.log(basket);
 
 let cartRefresh = () => {
     let cartIcon = document.getElementById("cartAmount");
@@ -27,8 +27,8 @@ let generateCartItems = () => {
             return `
             
             <div class="cart-item">
-                <h2>${search.title}</h2>
-                <p>${search.content}</p>
+                <h2>${search.titre}</h2>
+                <p>${search.criteres}</p>
                 <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
             </div>
             `;
@@ -42,7 +42,10 @@ let generateCartItems = () => {
         </a>
         `;
     }
-
+    basket.map((x) => {
+        let { id, item } = x;
+        let search = displayItemsData.find((y) => y.id)
+    })
 };
 
 generateCartItems();
@@ -62,3 +65,32 @@ let clearCart = () => {
     cartRefresh();
     localStorage.setItem("data", JSON.stringify(basket));
 };
+
+let titleKeys = Object.keys(basket[0])
+
+let refinedData = []
+
+refinedData.push(titleKeys)
+
+log.console(refinedData);
+
+ourData.forEach(item => {
+    refinedData.push(Object.values(item))
+})
+
+
+let csvContent = ''
+
+refinedData.forEach(row => {
+    csvContent += row.join(',') + '\n'
+})
+
+
+const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8,' })
+const objUrl = URL.createObjectURL(blob)
+const link = document.createElement('a')
+link.setAttribute('href', objUrl)
+link.setAttribute('download', 'File.csv')
+link.textContent = 'Click to Download'
+
+document.querySelector('body').append(link) 
