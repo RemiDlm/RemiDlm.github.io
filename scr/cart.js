@@ -1,10 +1,10 @@
 let shoppingCart = document.getElementById("shopping-cart");
 let empty = document.getElementById("empty");
 
-
 let basket = JSON.parse(localStorage.getItem("data")) || [];
+let List = [];
 
-console.log(basket);
+console.log(basket); // a supr
 
 let cartRefresh = () => {
     let cartIcon = document.getElementById("cartAmount");
@@ -21,7 +21,6 @@ let generateCartItems = () => {
         <button onclick="clearCart()">Clear Cart</button>
         `;
         return (shoppingCart.innerHTML = basket.map((x) => {
-            //console.log(x);
             let { id, item } = x;
             let search = displayItemsData.find((y) => y.id == id) || [];
             return `
@@ -48,14 +47,36 @@ let generateCartItems = () => {
     })
 };
 
-generateCartItems();
+let generateExportList = () => {
+    return (basket.map((x) => {
 
+        let { id, item } = x;
+        let search = displayItemsData.find((y) => y.id == id) || [];
+
+
+
+        List.push({
+            titre: search.titre,
+            categorie: search.categorie,
+            criteres: search.criteres,
+            cycledevie: search.cycledevie,
+            indicateur: search.indicateur,
+            Xindicateur: search.Xindicateur,
+            Yindicateur: search.Yindicateur,
+        });
+
+    }));
+};
+
+generateCartItems();
+generateExportList();
 
 let removeItem = (id) => {
     let selectedItem = id;
     basket = basket.filter((x) => x.id !== selectedItem);
     generateCartItems();
     cartRefresh();
+    generateExportList();
     localStorage.setItem("data", JSON.stringify(basket));
 };
 
@@ -63,34 +84,8 @@ let clearCart = () => {
     basket = [];
     generateCartItems();
     cartRefresh();
+    List = [];
     localStorage.setItem("data", JSON.stringify(basket));
 };
 
-let titleKeys = Object.keys(basket[0])
-
-let refinedData = []
-
-refinedData.push(titleKeys)
-
-log.console(refinedData);
-
-ourData.forEach(item => {
-    refinedData.push(Object.values(item))
-})
-
-
-let csvContent = ''
-
-refinedData.forEach(row => {
-    csvContent += row.join(',') + '\n'
-})
-
-
-const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8,' })
-const objUrl = URL.createObjectURL(blob)
-const link = document.createElement('a')
-link.setAttribute('href', objUrl)
-link.setAttribute('download', 'File.csv')
-link.textContent = 'Click to Download'
-
-document.querySelector('body').append(link) 
+console.log(List); //a supr
