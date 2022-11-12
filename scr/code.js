@@ -10,7 +10,7 @@ let generateDisplay = () => {
             let search = basket.find((x) => x.id === id) || [];
             return `
         <div id=item-id-${id} class="item">
-            <h4>${titre}</h4>
+            <h3>${titre}</h3>
             <p>
                 ${criteres}
             </p>
@@ -40,7 +40,6 @@ let add = (id) => {
         }
     }
 
-    //console.log(basket);
 
     basket = basket.filter((x) => x.item !== 0);
 

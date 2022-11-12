@@ -4,8 +4,6 @@ let empty = document.getElementById("empty");
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 let List = [];
 
-console.log(basket); // a supr
-
 let cartRefresh = () => {
     let cartIcon = document.getElementById("cartAmount");
 
@@ -17,7 +15,7 @@ cartRefresh();
 let generateCartItems = () => {
     if (basket.length !== 0) {
         empty.innerHTML = `
-        <h2>TEST</h2>
+        <h2>Voici les elements selectionnés selectionnés</h2>
         <button onclick="clearCart()">Clear Cart</button>
         `;
         return (shoppingCart.innerHTML = basket.map((x) => {
@@ -88,4 +86,29 @@ let clearCart = () => {
     localStorage.setItem("data", JSON.stringify(basket));
 };
 
-console.log(List); //a supr
+const titleKeys = Object.keys(List[0]);
+
+const refinedData = [];
+refinedData.push(titleKeys);
+
+List.forEach(item => {
+    refinedData.push(Object.values(item))
+});
+
+let csvContent = '';
+
+refinedData.forEach(row => {
+    csvContent += row.join(',') + '\n'
+});
+
+const blob = new Blob([csvContent], { type: 'text/csv; charset=utf-8,' });
+const objUrl = URL.createObjectURL(blob);
+
+function dl(URL, fileName) {
+    let link = document.createElement('a');
+    link.setAttribute('download', fileName);
+    link.href = URL;
+
+    link.click();
+    link.remove();
+};
