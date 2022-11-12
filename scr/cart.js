@@ -104,10 +104,10 @@ refinedData.forEach(row => {
 const blob = new Blob([csvContent], { type: 'text/csv; charset=utf-8,' });
 const objUrl = URL.createObjectURL(blob);
 
-function dl(URL, fileName) {
+function dl(fileName) {
     let link = document.createElement('a');
     link.setAttribute('download', fileName);
-    link.href = URL;
+    link.href = objURL;
 
     link.click();
     link.remove();
