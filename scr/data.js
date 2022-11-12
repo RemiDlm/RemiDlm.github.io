@@ -1,7 +1,7 @@
 let displayItemsData = [
     {
-        id: "1354545148",
-        incontrounable: true,
+        id: "1",
+        incontournable: true,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
         criteres: "Le besoin métier est-il exprimé ?",
@@ -12,8 +12,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "584695648956",
-        incontrounable: true,
+        id: "2",
+        incontournable: true,
         titre: "Emergence",
         categorie: "STRATEGIE",
         criteres: "Le besoin couvert par le service numérique s'inscrit-il dans l'un des objectifs de développement durable?",
@@ -24,8 +24,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "54485648564",
-        incontrounable: true,
+        id: "3",
+        incontournable: true,
         titre: "Emergence",
         categorie: "STRATEGIE",
         criteres: "Les parties prenantes internes et externes sont-elles sensibilisées, voire formées/certifiées au NR ?",
@@ -36,8 +36,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "5955845626588959",
-        incontrounable: true,
+        id: "4",
+        incontournable: true,
         titre: "Emergence",
         categorie: "STRATEGIE",
         criteres: "La conformité numérique responsable est-elle exposée ?",
@@ -48,10 +48,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "56953565656996556",
-        incontrounable: true,
+        id: "5",
+        incontournable: true,
         titre: "Equipe projet",
-        categorie: "STRATEGIE",
+        categorie: "SPECIFICATIONS",
         criteres: "Les enjeux NR du projet ont-ils été communiqués é l'équipe dés l'origine ?",
         cycledevie: "",
         indicateur: "(X / Y ) * 100",
@@ -60,10 +60,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "35632135324563",
-        incontrounable: true,
+        id: "6",
+        incontournable: true,
         titre: "Equipe projet",
-        categorie: "STRATEGIE",
+        categorie: "SPECIFICATIONS",
         criteres: "Chaque entité de l'équipe Projet dispose-t-elle des compétences NR ?",
         cycledevie: "",
         indicateur: "(X / Y ) * 100",
@@ -72,10 +72,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "21565621463215546",
-        incontrounable: true,
+        id: "7",
+        incontournable: true,
         titre: "Methodologie projet",
-        categorie: "STRATEGIE",
+        categorie: "SPECIFICATIONS",
         criteres: "Quelle proportion des fonctionnalités (User Story) ont une composante NR ? ",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -84,10 +84,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "6514154869625685",
-        incontrounable: true,
+        id: "8",
+        incontournable: true,
         titre: "Processus economique",
-        categorie: "STRATEGIE",
+        categorie: "SPECIFICATIONS",
         criteres: "Dans le processus d'achat (Appel d'offre) des exigences d'engagement NR sont-elles demandées aux prestataires externes ?",
         cycledevie: "Acquisition",
         indicateur: "(X / Y ) * 100",
@@ -96,10 +96,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4784547864789",
-        incontrounable: true,
+        id: "9",
+        incontournable: true,
         titre: "Gestion du cycle de vie",
-        categorie: "STRATEGIE",
+        categorie: "SPECIFICATIONS",
         criteres: "Les données et procédures spécifiées ont-elles toutes une information de fin de vie ?",
         cycledevie: "Fin de vie",
         indicateur: "(X / Y ) * 100",
@@ -108,10 +108,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "454856446494",
-        incontrounable: true,
+        id: "10",
+        incontournable: true,
         titre: "Méthodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Dans les méthodes d'idéation, l'ensemble des parties prenantes est-il pris en compte dans toute sa dimension (humaine) ?",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -120,10 +120,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "7894561258",
-        incontrounable: true,
+        id: "11",
+        incontournable: true,
         titre: "Methodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "La planéte est-elle prise en compte dans les méthodes d'idéation pour intégrer la dimension écologique (planet centric design) ?",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -132,10 +132,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4562368756",
-        incontrounable: true,
+        id: "12",
+        incontournable: true,
         titre: "Methodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Les plus-values extra-financiéres du numérique responsable sont-elles valorisées dans le business model ?",
         cycledevie: "Utilisation",
         indicateur: "(X / Y ) * 100",
@@ -144,10 +144,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "54944941616",
-        incontrounable: true,
+        id: "13",
+        incontournable: true,
         titre: "Ressources projet",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Les parties prenantes sont-elles sensibilisées au NR ?",
         cycledevie: "",
         indicateur: "(X / Y ) * 100",
@@ -156,10 +156,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "46984652398",
-        incontrounable: true,
+        id: "14",
+        incontournable: true,
         titre: "Methodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Une stratégie de compatibilité avec les terminaux et versions logicielles obsolétes est-elle définie ?",
         cycledevie: "Utilisation",
         indicateur: "(X / Y ) * 100",
@@ -168,10 +168,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4415613268",
-        incontrounable: true,
+        id: "15",
+        incontournable: true,
         titre: "Methodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Dés la conception, le service répond-t-il aux normes d'accessibilité en vigueur (au minimum) ?",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -180,10 +180,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "145256269694",
-        incontrounable: true,
+        id: "16",
+        incontournable: true,
         titre: "UI",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Une sobriété visuelle est-elle mise en place, pour limiter les ressources énergétiques et l'impact sur la dégradation matérielle des composants visuels, sonores et tactiles constitutifs de l'interface ?",
         cycledevie: "Réalisation",
         indicateur: "(X / Y ) * 100",
@@ -192,10 +192,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4515156551",
-        incontrounable: true,
+        id: "17",
+        incontournable: true,
         titre: "Methodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Est-ce que les fonctionnalités sont utilisées par l'utilisateur ?",
         cycledevie: "Utilisation",
         indicateur: "(X / Y ) * 100",
@@ -204,10 +204,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "45151565578",
-        incontrounable: true,
+        id: "18",
+        incontournable: true,
         titre: "UI",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Une politique de gestion/utilisation des médias afin de réduire leurs impacts est-elle en place, avec des critéres de compression et de formats des médias ?",
         cycledevie: "Realisation",
         indicateur: "(X / Y ) * 100",
@@ -216,10 +216,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4515156456",
-        incontrounable: true,
+        id: "19",
+        incontournable: true,
         titre: "UI",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Le nombre de polices de caractéres (fonts) et les variantes de polices appelées (graisse, caractéres utilisés dans le projet) sont-ils limités ?",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -229,10 +229,10 @@ let displayItemsData = [
     ,
 
     {
-        id: "4515165652",
-        incontrounable: true,
+        id: "20",
+        incontournable: true,
         titre: "Méthodologie",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Le service évite-t-il les Dark Patterns ?",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -241,10 +241,10 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4541585666",
-        incontrounable: true,
+        id: "21",
+        incontournable: true,
         titre: "Usage",
-        categorie: "Ux/Ui",
+        categorie: "UX/UI",
         criteres: "Des régles en matiére de respect de l'utilisateur sont-elles mises en place ?  ",
         cycledevie: "Conception",
         indicateur: "(X / Y ) * 100",
@@ -253,8 +253,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "78945777",
-        incontrounable: true,
+        id: "22",
+        incontournable: true,
         titre: "",
         categorie: "CONTENUS",
         criteres: "Les balises de mise en forme de texte répondent-elles au besoin de hiérarchisation des informations, et pas é des mises en valeur de présentation ?",
@@ -265,8 +265,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "123456999",
-        incontrounable: true,
+        id: "23",
+        incontournable: true,
         titre: "Images",
         categorie: "CONTENUS",
         criteres: "Est-ce  que les images ont été compressées en amont dans un format adapté pour sa visualisation ?",
@@ -277,8 +277,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "456781111",
-        incontrounable: true,
+        id: "24",
+        incontournable: true,
         titre: "Videos",
         categorie: "CONTENUS",
         criteres: "Est-ce que l'information portée par la vidéo peut étre remplacée par une alternative (infographie...)",
@@ -289,8 +289,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "77788855556",
-        incontrounable: true,
+        id: "25",
+        incontournable: true,
         titre: "Telechargements",
         categorie: "CONTENUS",
         criteres: "Les documents é télécharger sont-ils compressés, optimisés et accessibles ?",
@@ -301,8 +301,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "111559933",
-        incontrounable: true,
+        id: "26",
+        incontournable: true,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
         criteres: "Est-ce que les environnements autres que production (DEV, QA, ...) sont éteints ou décommissionnés en dehors des plages d'usage (la nuit, en dehors des périodes de tests)?",
@@ -313,8 +313,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "111557744666",
-        incontrounable: true,
+        id: "27",
+        incontournable: true,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
         criteres: "Chaque composant déployé est-il qualifié du point de vue de sa durée de vie, et les procédures de déprovisonnement sont-elles systématiquement exprimées ?",
@@ -325,8 +325,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "1236585274196",
-        incontrounable: true,
+        id: "28",
+        incontournable: true,
         titre: "Design logiciel",
         categorie: "ARCHITECTURE",
         criteres: "L'ensemble des équipements techniques utilisés par le service sont-ils identifiés?",
@@ -337,8 +337,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "74185963222",
-        incontrounable: true,
+        id: "29",
+        incontournable: true,
         titre: "API",
         categorie: "FRONTEND",
         criteres: "Est-ce que les fonctionnalités couvertes par des actions locales (cété client) sont privilégiées plutét que des échanges API ?",
@@ -349,8 +349,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "748596233366",
-        incontrounable: true,
+        id: "30",
+        incontournable: true,
         titre: "User experience",
         categorie: "FRONTEND",
         criteres: "La plage de rétro-compatibilité est-elle définie ?",
@@ -361,8 +361,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "456987412366",
-        incontrounable: true,
+        id: "31",
+        incontournable: true,
         titre: "Standards de developpement",
         categorie: "FRONTEND",
         criteres: "Les fonctionnalités du service ne vont-elles pas au-delé des besoins utilisateurs ?",
@@ -373,8 +373,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "7788945656145656548541584586585965896589",
-        incontrounable: true,
+        id: "32",
+        incontournable: true,
         titre: "UI",
         categorie: "FRONTEND",
         criteres: "Une version épurée est-elle disponible pour les impressions ?",
@@ -385,8 +385,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "84549655",
-        incontrounable: true,
+        id: "33",
+        incontournable: true,
         titre: "UI",
         categorie: "FRONTEND",
         criteres: "Les objets de cartographie, animations, vidéos sont-ils présentés dans un mode statique ?",
@@ -397,8 +397,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "1",
-        incontrounable: true,
+        id: "34",
+        incontournable: true,
         titre: "Données",
         categorie: "BACKEND",
         criteres: "Est-ce que le nombre de requétes est minimisé (proscrire l'usage de boucle) ?",
@@ -409,8 +409,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "45685215999",
-        incontrounable: true,
+        id: "35",
+        incontournable: true,
         titre: "Qualité",
         categorie: "BACKEND",
         criteres: "Les fonctionnalités sont-elles documentées pour permettre leur réutilisation ?",
@@ -421,8 +421,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "54865586548",
-        incontrounable: true,
+        id: "36",
+        incontournable: true,
         titre: "Flux",
         categorie: "BACKEND",
         criteres: "Est-ce que les données échangées sont compressées / minifiées avant transmission ?",
@@ -433,8 +433,8 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4564564856",
-        incontrounable: true,
+        id: "37",
+        incontournable: true,
         titre: "Cycle de vie",
         categorie: "BACKEND",
         criteres: "Est-ce que la fonctionnalité envisagée est utile ?",
@@ -444,5 +444,763 @@ let displayItemsData = [
         Yindicateur: "Fonctionnalités déployées",
     }
     ,
-
+// à rajouter, 100-37 = 63 bonnes pratiques = 9 par catégorie
+    {
+        id: "38",
+        incontournable: false,
+        titre: "Emergence",
+        categorie: "STRATEGIE",
+        criteres: "Les délais de mise en oeuvre sont-ils envisagés ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        //à respecter par le site
+        id: "39",
+        incontournable: false,
+        titre: "Cadrage projet",
+        categorie: "STRATEGIE",
+        criteres: "Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?",
+        cycledevie: "N/A",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Meeting Distance",
+        Yindicateur: "Meeting total",
+    }
+    ,
+    {
+        //à respecter par le site
+        id: "40",
+        incontournable: false,
+        titre: "Cadrage projet",
+        categorie: "STRATEGIE",
+        criteres: "Le télétravail est-il autorisé, sans limites, aux collaborateurs qui le souhaitent et dont l'activité le permet ?",
+        cycledevie: "N/A",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Propositions de télétravail",
+        Yindicateur: "Postes elligibles",
+    }
+    ,
+    {
+        id: "41",
+        incontournable: false,
+        titre: "Cadrage projet",
+        categorie: "STRATEGIE",
+        criteres: "Comment faire du NR plus qu'un objectif de communication ? Est-ce que des résultats concrets sont associés à la démarche NR ? (pas de Greenwashing)",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Oui = 100 ; Partiel = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "42",
+        incontournable: false,
+        titre: "Emergence",
+        categorie: "STRATEGIE",
+        criteres: "Les outils pour mesurer l'efficacité de ma démarche NR sont-ils identifiés et communiqués ?",
+        cycledevie: "Administration",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "43",
+        incontournable: false,
+        titre: "Emergence",
+        categorie: "STRATEGIE",
+        criteres: "A-t-on les personnes avec les compétences techniques les plus pertinentes pour chaque élément du projet ?",
+        cycledevie: "N/A",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formés au NR",
+        Yindicateur: "Membre équipe",
+    }
+    ,
+    {
+        id: "44",
+        incontournable: false,
+        titre: "Cadrage projet",
+        categorie: "STRATEGIE",
+        criteres: "L’ensemble des produits et services sont-ils indispensables en ligne ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Abordée = 100 ; Partielle = 50 ; Non traitée = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "45",
+        incontournable: false,
+        titre: "Cadrage projet",
+        categorie: "STRATEGIE",
+        criteres: "La solution retenue est-elle la plus respectueuse de l'environnement ? Sinon, ce choix est-il justifié par le besoin utilisateur ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Oui = 100 ; Partiel = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "46",
+        incontournable: false,
+        titre: "Cadrage projet",
+        categorie: "STRATEGIE",
+        criteres: "Le modèle économique de ce service prend-il en compte l'éco-conception ?",
+        cycledevie: "Conception",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }//fin de stratégie
+    ,
+    {
+        id: "47",
+        incontournable: false,
+        titre: "Equipe projet",
+        categorie: "SPECIFICATIONS",
+        criteres: "Les référents NR de l'organisation sont-ils identifiés ?",
+        cycledevie: "N/A",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "48",
+        incontournable: false,
+        titre: "Equipe projet",
+        categorie: "SPECIFICATIONS",
+        criteres: "Les aspects numérique responsable sont-ils propagés et entretenus sur l'ensemble des profils utilisateurs ?",
+        cycledevie: "Utilisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "49",
+        incontournable: false,
+        titre: "Méthodologie projet",
+        categorie: "SPECIFICATIONS",
+        criteres: "Des fonctionnalités (User Story) concernent-elles uniquement les aspects NR ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Nombre US NR",
+        Yindicateur: "Nombre US NFR",
+    }
+    ,
+    {
+        id: "50",
+        incontournable: false,
+        titre: "Méthodologie projet",
+        categorie: "SPECIFICATIONS",
+        criteres: "Chaque fonctionnalité est-elle évaluée par rapport aux usages ?",
+        cycledevie: "Conception",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "51",
+        incontournable: false,
+        titre: "Produit",
+        categorie: "SPECIFICATIONS",
+        criteres: "Les exigences NR sont elles associées à toutes les fonctionnalités produit ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Exigences NR",
+        Yindicateur: "Fonctionnalités",
+    }
+    ,
+    {
+        id: "52",
+        incontournable: false,
+        titre: "Technologie",
+        categorie: "SPECIFICATIONS",
+        criteres: "Toutes les exigences projet (performance, sécurité, accessibilité, NR) sont-elles associées à chaque fonctionnalité ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Exigences NR",
+        Yindicateur: "Fonctionnalités avec NFR",
+    }
+    ,
+    {
+        id: "53",
+        incontournable: false,
+        titre: "Produit",
+        categorie: "SPECIFICATIONS",
+        criteres: "Quelles alternatives sont proposées pour traiter une fonctionnalité non retenue ?",
+        cycledevie: "Acquisition",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "54",
+        incontournable: false,
+        titre: "Technique IT",
+        categorie: "SPECIFICATIONS",
+        criteres: "L'évaluation de la valeur fonctionnelle de chaque interaction utilisateur est-elle réalisée ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Validations",
+        Yindicateur: "Interactions User",
+    }
+    ,
+    {
+        id: "55",
+        incontournable: false,
+        titre: "Technologie",
+        categorie: "SPECIFICATIONS",
+        criteres: "Les équipements actuels des utilisateurs sont-ils évalués ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Evaluations",
+        Yindicateur: "Matériels identifiés",
+    }// fin SPECIFICATIONS
+    ,
+    {
+        id: "56",
+        incontournable: false,
+        titre: "Méthodologie",
+        categorie: "UX/UI",
+        criteres: "Est-ce que les mécanismes d'accès au service d'assistance sont disponibles et adaptés à tout public ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "57",
+        incontournable: false,
+        titre: "Usages",
+        categorie: "UX/UI",
+        criteres: "Tout type d'utilisateur peut-il savoir facilement où il se trouve dans le service, par la mise en place d'un système de navigation inclusif ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "58",
+        incontournable: false,
+        titre: "Méthodologie",
+        categorie: "UX/UI",
+        criteres: "La conception est-elle documentée (fonctionnellement et techniquement), les livrables de conception doivent être intelligibles par l'équipe projet et transférables à l'équipe de développement ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "59",
+        incontournable: false,
+        titre: "UI",
+        categorie: "UX/UI",
+        criteres: "Les vidéos et animations sont-elles utilisées uniquement lorsqu'elles apportent une valeur pour l'utilisateur ?",
+        cycledevie: "Conception",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Vidéos analysées",
+        Yindicateur: "Vidéos",
+    }
+    ,
+    {
+        id: "60",
+        incontournable: false,
+        titre: "UI",
+        categorie: "UX/UI",
+        criteres: "Les images sont-elles optimisées par rapport à leurs fonctions ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Images analysées",
+        Yindicateur: "Images",
+    }
+    ,
+    {
+        id: "61",
+        incontournable: false,
+        titre: "UI",
+        categorie: "UX/UI",
+        criteres: "Chacune des actions sont-elles initiées par l'utilisateur ? est-il informé de la portée et des conséquences de ses actions ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Interactions analysées",
+        Yindicateur: "Interactions utilisateurs",
+    }
+    ,
+    {
+        id: "62",
+        incontournable: false,
+        titre: "Ressources Projet",
+        categorie: "UX/UI",
+        criteres: "Les améliorations NR sont-elles identifiées et systématiquement planifiées ?",
+        cycledevie: "Maintenance",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Composantes NR",
+        Yindicateur: "Améliorations",
+    }
+    ,
+    {
+        id: "63",
+        incontournable: false,
+        titre: "Usage",
+        categorie: "UX/UI",
+        criteres: "Les normes légales d'affichage et de communication sur le RGAA (service publique et Société privée de plus de 250 M d'€ de CA) sont-elles prises en compte ?",
+        cycledevie: "Réalisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "64",
+        incontournable: false,
+        titre: "Technologie",
+        categorie: "UX/UI",
+        criteres: "Est-ce que les recherches les plus fréquentes ont été étudiées et adressées pour qu'elles soient ou mises en cache ou affichées à l'utilisateur sans envoi de requête ou clics inutiles ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Sollicitation des caches",
+        Yindicateur: "Requètes de recherche",
+    }//fin de UX/UI
+    ,
+    {
+        id: "65",
+        incontournable: false,
+        titre: "Texte",
+        categorie: "CONTENUS",
+        criteres: "Le nombre de polices différentes est-il limité ?",
+        cycledevie: "Réalisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "66",
+        incontournable: false,
+        titre: "Images",
+        categorie: "CONTENUS",
+        criteres: "Quels sont les droits d'utilisation des images, vidéos, illustrations et textes de mon site ?",
+        cycledevie: "Acquisition",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Ressources analysées",
+        Yindicateur: "Ressources",
+    }
+    ,
+    {
+        id: "67",
+        incontournable: false,
+        titre: "Texte",
+        categorie: "CONTENUS",
+        criteres: "Privilégiez-vous les polices système ?",
+        cycledevie: "Réalisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "68",
+        incontournable: false,
+        titre: "SEO",
+        categorie: "CONTENUS",
+        criteres: "Les informations de tracking de SEO sont-elles suivies et rationalisées afin de ne pas collecter d'éléments inutiles ?",
+        cycledevie: "Administration",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "69",
+        incontournable: false,
+        titre: "Responsabilité éditoriale",
+        categorie: "CONTENUS",
+        criteres: "Est-ce que l'ensemble des sources utilisées a été vérifié ?",
+        cycledevie: "Acquisition",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "70",
+        incontournable: false,
+        titre: "Contenus animés",
+        categorie: "CONTENUS",
+        criteres: "Avez-vous limité les animations ?",
+        cycledevie: "Conception",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "71",
+        incontournable: false,
+        titre: "Formulaires",
+        categorie: "CONTENUS",
+        criteres: "Est-ce que la mise en forme du formulaire est minimale (afin de ne pas surcharger le code pour des styles peu utiles) ?",
+        cycledevie: "Réalisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "72",
+        incontournable: false,
+        titre: "UI",
+        categorie: "CONTENUS",
+        criteres: "La présentation des informations est-elle accessible sans générer une cascade de zones de présentations dynamiques ?",
+        cycledevie: "Utilisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "73",
+        incontournable: false,
+        titre: "Sons",
+        categorie: "CONTENUS",
+        criteres: "Est-ce que le son de la vidéo peut-être restitué sous forme texte ?",
+        cycledevie: "Réalisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }// fin contenus
+    ,
+    {
+        id: "74",
+        incontournable: false,
+        titre: "Cycle de vie",
+        categorie: "ARCHITECTURE",
+        criteres: "Est ce que les contraintes légales liées à la persistance des données ont été analysées et les règles et délais d'oubli spécifiés ?",
+        cycledevie: "Fin de Vie",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "75",
+        incontournable: false,
+        titre: "Infrastructure NR",
+        categorie: "ARCHITECTURE",
+        criteres: "Est-ce que la stratégie de stockage minimise les infrastructures ou la duplication des données par rapport à leur criticité ?",
+        cycledevie: "Déploiement",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "76",
+        incontournable: false,
+        titre: "Infrastructure NR",
+        categorie: "ARCHITECTURE",
+        criteres: "L'automatisation des tâches de compilation, de test, d'intégration et de déploiement existent-elles dans le workflow d'intégration continue ?",
+        cycledevie: "Déploiement",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "77",
+        incontournable: false,
+        titre: "Cycle de vie",
+        categorie: "ARCHITECTURE",
+        criteres: "Le schéma directeur de l'organisation propose-t-il des objectifs et actions Numérique Responsable qui vont influencer le design d'architecture ou les solutions d'urbanisation ?",
+        cycledevie: "N/A",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "78",
+        incontournable: false,
+        titre: "Equipes",
+        categorie: "ARCHITECTURE",
+        criteres: "Les objectifs Numérique Responsable sont-ils qualifiés pour chaque type de public dans le design d'architecture ?",
+        cycledevie: "N/A",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "79",
+        incontournable: false,
+        titre: "Design Logiciel",
+        categorie: "ARCHITECTURE",
+        criteres: "La traçabilité des exigences de sécurité est-elle garantie ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "80",
+        incontournable: false,
+        titre: "Cycle de vie",
+        categorie: "ARCHITECTURE",
+        criteres: "Quelles données sont consolidées pour établir la performance environnementale ?",
+        cycledevie: "Administration",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "81",
+        incontournable: false,
+        titre: "Design Logiciel NR",
+        categorie: "ARCHITECTURE",
+        criteres: "L'architecture est-elle modulaire ?  Permet-elle de recycler des composants déjà développés pour d'autres projets (authentification, référentiels de données, API, etc.) ?",
+        cycledevie: "Revalorisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "82",
+        incontournable: false,
+        titre: "Achat NR",
+        categorie: "ARCHITECTURE",
+        criteres: "La durée du support du service numérique est-elle suffisante pour minimiser le renouvellement des équipements ?",
+        cycledevie: "Fin de Vie",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }// fin Architecture
+    ,
+    {
+        id: "83",
+        incontournable: false,
+        titre: "User Experience",
+        categorie: "FRONTEND",
+        criteres: "Est-ce que les fonctions proposées sont bien en rapport avec un usage ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Fonctionnalités validées",
+        Yindicateur: "Fonctionnalités",
+    }
+    ,
+    {
+        id: "84",
+        incontournable: false,
+        titre: "UI",
+        categorie: "FRONTEND",
+        criteres: "Le suivi de positionnement peut-il se satisfaire d'une fréquence plus réduite ?",
+        cycledevie: "Utilisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "85",
+        incontournable: false,
+        titre: "UI",
+        categorie: "FRONTEND",
+        criteres: "Les différents formats d'images disponibles ont-ils été évalués pour ne retenir que le plus efficace ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Images Analysées",
+        Yindicateur: "Images",
+    }
+    ,
+    {
+        id: "86",
+        incontournable: false,
+        titre: "User Experience",
+        categorie: "FRONTEND",
+        criteres: "La navigation rapide est-elle possible ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "87",
+        incontournable: false,
+        titre: "Technologie",
+        categorie: "FRONTEND",
+        criteres: "Les capteurs sont-ils sollicités au besoin réel, plutôt qu'en permanence ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Capteurs mis en oeuvre à la demande",
+        Yindicateur: "Capteurs référencés",
+    }
+    ,
+    {
+        id: "88",
+        incontournable: false,
+        titre: "FLux",
+        categorie: "FRONTEND",
+        criteres: "Limitez-vous les flux échangés ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "89",
+        incontournable: false,
+        titre: "Standards de développement",
+        categorie: "FRONTEND",
+        criteres: "Est-ce que les logs sont exempts d'erreurs non traitées ?",
+        cycledevie: "Administration",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "90",
+        incontournable: false,
+        titre: "Cycle de vie",
+        categorie: "FRONTEND",
+        criteres: "Chacune de ces phases du cycle de vie sont-elles identifiées avec des actions spécifiques ?",
+        cycledevie: "Maintenance",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "91",
+        incontournable: false,
+        titre: "API",
+        categorie: "FRONTEND",
+        criteres: "Est-ce qu'une alternative openSource est disponible pour les API ?",
+        cycledevie: "Acquisition",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }//fin FrontEnd
+    ,
+    {
+        id: "92",
+        incontournable: false,
+        titre: "Architecture",
+        categorie: "BACKEND",
+        criteres: "Est-ce qu'un profil d'utilisation des fonctionnalités est mis en place ?",
+        cycledevie: "Administration",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "93",
+        incontournable: false,
+        titre: "Conformité",
+        categorie: "BACKEND",
+        criteres: "Est-ce que la cartographie des traitements (RGPD) est disponible ?",
+        cycledevie: "Conception",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "94",
+        incontournable: false,
+        titre: "Conformité",
+        categorie: "BACKEND",
+        criteres: "Est-ce que l'analyse de risques (RGPD) est réalisée ?",
+        cycledevie: "Administration",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "95",
+        incontournable: false,
+        titre: "Flux",
+        categorie: "BACKEND",
+        criteres: "Les notifications utilisateurs sont-elles nécessaires ?",
+        cycledevie: "Utilisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Notifications analysées",
+        Yindicateur: "Notifications",
+    }
+    ,
+    {
+        id: "96",
+        incontournable: false,
+        titre: "Flux",
+        categorie: "BACKEND",
+        criteres: "Est-ce que la pagination est utilisée sur les échanges de données ?",
+        cycledevie: "Réalisation",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Données API analysées",
+        Yindicateur: "Données API échangées",
+    }
+    ,
+    {
+        id: "97",
+        incontournable: false,
+        titre: "Performance",
+        categorie: "BACKEND",
+        criteres: "Est-ce que le serveur web utilisé est asynchrone et multi-thread ?",
+        cycledevie: "Déploiement",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "98",
+        incontournable: false,
+        titre: "Données",
+        categorie: "BACKEND",
+        criteres: "Est-ce qu'une alternative aux requêtes SQL est utilisée quand c'est possible (local storage ou assimilé) ?",
+        cycledevie: "Réalisation",
+        indicateur: "",
+        Xindicateur: "",
+        Yindicateur: "",
+    }
+    ,
+    {
+        id: "99",
+        incontournable: false,
+        titre: "Traitement de données",
+        categorie: "BACKEND",
+        criteres: "Les données ont-elles une date d'expiration à laquelle elles sont supprimées ?",
+        cycledevie: "Fin de Vie",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
+        Yindicateur: "100",
+    }
+    ,
+    {
+        id: "100",
+        incontournable: false,
+        titre: "Sécurité",
+        categorie: "BACKEND",
+        criteres: "Est-ce que les données sensibles des utilisateurs sont sécurisées ?",
+        cycledevie: "Déploiement",
+        indicateur: "(X / Y ) * 100",
+        Xindicateur: "Données sensibles analysées",
+        Yindicateur: "Données sensibles",
+    }//fin BackEnd
+    
 ];
