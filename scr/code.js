@@ -21,6 +21,7 @@ let generateDisplay = () => {
         </div>
     `;
         }).join(""));
+
 };
 
 generateDisplay();
@@ -45,7 +46,29 @@ let add = (id) => {
 
     cartRefresh();
     localStorage.setItem("data", JSON.stringify(basket));
+    console.log(basket);
 };
+
+
+
+let addInctournable = () => {
+
+    displayItemsData.forEach(element => {
+        let search = basket.find((x) => x.id === element.id);
+        if (element.incontournable === true && search === undefined) {
+            basket.push({
+                id: element.id,
+                item: 1,
+            });
+        };
+    });
+
+    localStorage.setItem("data", JSON.stringify(basket));
+};
+
+addInctournable();
+
+
 
 let cartRefresh = () => {
     let cartIcon = document.getElementById("cartAmount");

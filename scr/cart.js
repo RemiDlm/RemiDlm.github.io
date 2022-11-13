@@ -69,6 +69,7 @@ let generateExportList = () => {
 generateCartItems();
 generateExportList();
 
+
 let removeItem = (id) => {
     let selectedItem = id;
     basket = basket.filter((x) => x.id !== selectedItem);
@@ -107,7 +108,7 @@ const objUrl = URL.createObjectURL(blob);
 function dl(fileName) {
     let link = document.createElement('a');
     link.setAttribute('download', fileName);
-    link.href = objURL;
+    link.href = objUrl;
 
     link.click();
     link.remove();

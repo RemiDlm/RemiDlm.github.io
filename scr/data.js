@@ -1,6 +1,6 @@
 let displayItemsData = [
     {
-        id: "1",
+        id: 1,
         incontournable: true,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -12,7 +12,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "2",
+        id: 2,
         incontournable: true,
         titre: "Emergence",
         categorie: "STRATEGIE",
@@ -24,7 +24,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "3",
+        id: 3,
         incontournable: true,
         titre: "Emergence",
         categorie: "STRATEGIE",
@@ -36,7 +36,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "4",
+        id: 4,
         incontournable: true,
         titre: "Emergence",
         categorie: "STRATEGIE",
@@ -48,7 +48,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "5",
+        id: 5,
         incontournable: true,
         titre: "Equipe projet",
         categorie: "SPECIFICATIONS",
@@ -60,7 +60,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "6",
+        id: 6,
         incontournable: true,
         titre: "Equipe projet",
         categorie: "SPECIFICATIONS",
@@ -72,7 +72,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "7",
+        id: 7,
         incontournable: true,
         titre: "Methodologie projet",
         categorie: "SPECIFICATIONS",
@@ -84,7 +84,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "8",
+        id: 8,
         incontournable: true,
         titre: "Processus economique",
         categorie: "SPECIFICATIONS",
@@ -96,7 +96,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "9",
+        id: 9,
         incontournable: true,
         titre: "Gestion du cycle de vie",
         categorie: "SPECIFICATIONS",
@@ -108,7 +108,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "10",
+        id: 10,
         incontournable: true,
         titre: "Méthodologie",
         categorie: "UX/UI",
@@ -120,7 +120,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "11",
+        id: 11,
         incontournable: true,
         titre: "Methodologie",
         categorie: "UX/UI",
@@ -132,7 +132,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "12",
+        id: 12,
         incontournable: true,
         titre: "Methodologie",
         categorie: "UX/UI",
@@ -144,7 +144,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "13",
+        id: 13,
         incontournable: true,
         titre: "Ressources projet",
         categorie: "UX/UI",
@@ -156,7 +156,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "14",
+        id: 14,
         incontournable: true,
         titre: "Methodologie",
         categorie: "UX/UI",
@@ -168,7 +168,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "15",
+        id: 15,
         incontournable: true,
         titre: "Methodologie",
         categorie: "UX/UI",
@@ -180,7 +180,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "16",
+        id: 16,
         incontournable: true,
         titre: "UI",
         categorie: "UX/UI",
@@ -192,7 +192,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "17",
+        id: 17,
         incontournable: true,
         titre: "Methodologie",
         categorie: "UX/UI",
@@ -204,7 +204,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "18",
+        id: 18,
         incontournable: true,
         titre: "UI",
         categorie: "UX/UI",
@@ -216,7 +216,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "19",
+        id: 19,
         incontournable: true,
         titre: "UI",
         categorie: "UX/UI",
@@ -229,7 +229,7 @@ let displayItemsData = [
     ,
 
     {
-        id: "20",
+        id: 20,
         incontournable: true,
         titre: "Méthodologie",
         categorie: "UX/UI",
@@ -241,7 +241,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "21",
+        id: 21,
         incontournable: true,
         titre: "Usage",
         categorie: "UX/UI",
@@ -253,7 +253,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "22",
+        id: 22,
         incontournable: true,
         titre: "",
         categorie: "CONTENUS",
@@ -265,7 +265,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "23",
+        id: 23,
         incontournable: true,
         titre: "Images",
         categorie: "CONTENUS",
@@ -277,7 +277,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "24",
+        id: 24,
         incontournable: true,
         titre: "Videos",
         categorie: "CONTENUS",
@@ -289,7 +289,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "25",
+        id: 25,
         incontournable: true,
         titre: "Telechargements",
         categorie: "CONTENUS",
@@ -301,7 +301,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "26",
+        id: 26,
         incontournable: true,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
@@ -313,7 +313,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "27",
+        id: 27,
         incontournable: true,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
@@ -325,7 +325,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "28",
+        id: 28,
         incontournable: true,
         titre: "Design logiciel",
         categorie: "ARCHITECTURE",
@@ -337,7 +337,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "29",
+        id: 29,
         incontournable: true,
         titre: "API",
         categorie: "FRONTEND",
@@ -349,7 +349,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "30",
+        id: 30,
         incontournable: true,
         titre: "User experience",
         categorie: "FRONTEND",
@@ -361,7 +361,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "31",
+        id: 31,
         incontournable: true,
         titre: "Standards de developpement",
         categorie: "FRONTEND",
@@ -373,7 +373,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "32",
+        id: 32,
         incontournable: true,
         titre: "UI",
         categorie: "FRONTEND",
@@ -385,7 +385,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "33",
+        id: 33,
         incontournable: true,
         titre: "UI",
         categorie: "FRONTEND",
@@ -397,7 +397,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "34",
+        id: 34,
         incontournable: true,
         titre: "Données",
         categorie: "BACKEND",
@@ -409,7 +409,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "35",
+        id: 35,
         incontournable: true,
         titre: "Qualité",
         categorie: "BACKEND",
@@ -421,7 +421,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "36",
+        id: 36,
         incontournable: true,
         titre: "Flux",
         categorie: "BACKEND",
@@ -433,7 +433,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "37",
+        id: 37,
         incontournable: true,
         titre: "Cycle de vie",
         categorie: "BACKEND",
@@ -444,9 +444,8 @@ let displayItemsData = [
         Yindicateur: "Fonctionnalités déployées",
     }
     ,
-// à rajouter, 100-37 = 63 bonnes pratiques = 9 par catégorie
     {
-        id: "38",
+        id: 38,
         incontournable: false,
         titre: "Emergence",
         categorie: "STRATEGIE",
@@ -458,8 +457,7 @@ let displayItemsData = [
     }
     ,
     {
-        //à respecter par le site
-        id: "39",
+        id: 39,
         incontournable: false,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -471,8 +469,7 @@ let displayItemsData = [
     }
     ,
     {
-        //à respecter par le site
-        id: "40",
+        id: 40,
         incontournable: false,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -484,7 +481,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "41",
+        id: 41,
         incontournable: false,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -496,7 +493,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "42",
+        id: 42,
         incontournable: false,
         titre: "Emergence",
         categorie: "STRATEGIE",
@@ -508,7 +505,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "43",
+        id: 43,
         incontournable: false,
         titre: "Emergence",
         categorie: "STRATEGIE",
@@ -520,7 +517,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "44",
+        id: 44,
         incontournable: false,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -532,7 +529,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "45",
+        id: 45,
         incontournable: false,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -544,7 +541,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "46",
+        id: 46,
         incontournable: false,
         titre: "Cadrage projet",
         categorie: "STRATEGIE",
@@ -553,10 +550,10 @@ let displayItemsData = [
         indicateur: "",
         Xindicateur: "",
         Yindicateur: "",
-    }//fin de stratégie
+    }
     ,
     {
-        id: "47",
+        id: 47,
         incontournable: false,
         titre: "Equipe projet",
         categorie: "SPECIFICATIONS",
@@ -568,7 +565,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "48",
+        id: 48,
         incontournable: false,
         titre: "Equipe projet",
         categorie: "SPECIFICATIONS",
@@ -580,7 +577,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "49",
+        id: 49,
         incontournable: false,
         titre: "Méthodologie projet",
         categorie: "SPECIFICATIONS",
@@ -592,7 +589,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "50",
+        id: 50,
         incontournable: false,
         titre: "Méthodologie projet",
         categorie: "SPECIFICATIONS",
@@ -604,7 +601,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "51",
+        id: 51,
         incontournable: false,
         titre: "Produit",
         categorie: "SPECIFICATIONS",
@@ -616,7 +613,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "52",
+        id: 52,
         incontournable: false,
         titre: "Technologie",
         categorie: "SPECIFICATIONS",
@@ -628,7 +625,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "53",
+        id: 53,
         incontournable: false,
         titre: "Produit",
         categorie: "SPECIFICATIONS",
@@ -640,7 +637,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "54",
+        id: 54,
         incontournable: false,
         titre: "Technique IT",
         categorie: "SPECIFICATIONS",
@@ -652,7 +649,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "55",
+        id: 55,
         incontournable: false,
         titre: "Technologie",
         categorie: "SPECIFICATIONS",
@@ -661,10 +658,10 @@ let displayItemsData = [
         indicateur: "(X / Y ) * 100",
         Xindicateur: "Evaluations",
         Yindicateur: "Matériels identifiés",
-    }// fin SPECIFICATIONS
+    }
     ,
     {
-        id: "56",
+        id: 56,
         incontournable: false,
         titre: "Méthodologie",
         categorie: "UX/UI",
@@ -676,7 +673,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "57",
+        id: 57,
         incontournable: false,
         titre: "Usages",
         categorie: "UX/UI",
@@ -688,7 +685,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "58",
+        id: 58,
         incontournable: false,
         titre: "Méthodologie",
         categorie: "UX/UI",
@@ -700,7 +697,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "59",
+        id: 59,
         incontournable: false,
         titre: "UI",
         categorie: "UX/UI",
@@ -712,7 +709,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "60",
+        id: 60,
         incontournable: false,
         titre: "UI",
         categorie: "UX/UI",
@@ -724,7 +721,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "61",
+        id: 61,
         incontournable: false,
         titre: "UI",
         categorie: "UX/UI",
@@ -736,7 +733,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "62",
+        id: 62,
         incontournable: false,
         titre: "Ressources Projet",
         categorie: "UX/UI",
@@ -748,7 +745,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "63",
+        id: 63,
         incontournable: false,
         titre: "Usage",
         categorie: "UX/UI",
@@ -760,7 +757,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "64",
+        id: 64,
         incontournable: false,
         titre: "Technologie",
         categorie: "UX/UI",
@@ -769,10 +766,10 @@ let displayItemsData = [
         indicateur: "(X / Y ) * 100",
         Xindicateur: "Sollicitation des caches",
         Yindicateur: "Requètes de recherche",
-    }//fin de UX/UI
+    }
     ,
     {
-        id: "65",
+        id: 65,
         incontournable: false,
         titre: "Texte",
         categorie: "CONTENUS",
@@ -784,7 +781,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "66",
+        id: 66,
         incontournable: false,
         titre: "Images",
         categorie: "CONTENUS",
@@ -796,7 +793,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "67",
+        id: 67,
         incontournable: false,
         titre: "Texte",
         categorie: "CONTENUS",
@@ -808,7 +805,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "68",
+        id: 68,
         incontournable: false,
         titre: "SEO",
         categorie: "CONTENUS",
@@ -820,7 +817,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "69",
+        id: 69,
         incontournable: false,
         titre: "Responsabilité éditoriale",
         categorie: "CONTENUS",
@@ -832,7 +829,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "70",
+        id: 70,
         incontournable: false,
         titre: "Contenus animés",
         categorie: "CONTENUS",
@@ -844,7 +841,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "71",
+        id: 71,
         incontournable: false,
         titre: "Formulaires",
         categorie: "CONTENUS",
@@ -856,7 +853,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "72",
+        id: 72,
         incontournable: false,
         titre: "UI",
         categorie: "CONTENUS",
@@ -868,7 +865,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "73",
+        id: 73,
         incontournable: false,
         titre: "Sons",
         categorie: "CONTENUS",
@@ -877,10 +874,10 @@ let displayItemsData = [
         indicateur: "",
         Xindicateur: "",
         Yindicateur: "",
-    }// fin contenus
+    }
     ,
     {
-        id: "74",
+        id: 74,
         incontournable: false,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
@@ -892,7 +889,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "75",
+        id: 75,
         incontournable: false,
         titre: "Infrastructure NR",
         categorie: "ARCHITECTURE",
@@ -904,7 +901,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "76",
+        id: 76,
         incontournable: false,
         titre: "Infrastructure NR",
         categorie: "ARCHITECTURE",
@@ -916,7 +913,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "77",
+        id: 77,
         incontournable: false,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
@@ -928,7 +925,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "78",
+        id: 78,
         incontournable: false,
         titre: "Equipes",
         categorie: "ARCHITECTURE",
@@ -940,7 +937,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "79",
+        id: 79,
         incontournable: false,
         titre: "Design Logiciel",
         categorie: "ARCHITECTURE",
@@ -952,7 +949,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "80",
+        id: 80,
         incontournable: false,
         titre: "Cycle de vie",
         categorie: "ARCHITECTURE",
@@ -964,7 +961,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "81",
+        id: 81,
         incontournable: false,
         titre: "Design Logiciel NR",
         categorie: "ARCHITECTURE",
@@ -976,7 +973,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "82",
+        id: 82,
         incontournable: false,
         titre: "Achat NR",
         categorie: "ARCHITECTURE",
@@ -985,10 +982,10 @@ let displayItemsData = [
         indicateur: "",
         Xindicateur: "",
         Yindicateur: "",
-    }// fin Architecture
+    }
     ,
     {
-        id: "83",
+        id: 83,
         incontournable: false,
         titre: "User Experience",
         categorie: "FRONTEND",
@@ -1000,7 +997,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "84",
+        id: 84,
         incontournable: false,
         titre: "UI",
         categorie: "FRONTEND",
@@ -1012,7 +1009,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "85",
+        id: 85,
         incontournable: false,
         titre: "UI",
         categorie: "FRONTEND",
@@ -1024,7 +1021,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "86",
+        id: 86,
         incontournable: false,
         titre: "User Experience",
         categorie: "FRONTEND",
@@ -1036,7 +1033,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "87",
+        id: 87,
         incontournable: false,
         titre: "Technologie",
         categorie: "FRONTEND",
@@ -1048,7 +1045,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "88",
+        id: 88,
         incontournable: false,
         titre: "FLux",
         categorie: "FRONTEND",
@@ -1060,7 +1057,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "89",
+        id: 89,
         incontournable: false,
         titre: "Standards de développement",
         categorie: "FRONTEND",
@@ -1072,7 +1069,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "90",
+        id: 90,
         incontournable: false,
         titre: "Cycle de vie",
         categorie: "FRONTEND",
@@ -1084,7 +1081,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "91",
+        id: 91,
         incontournable: false,
         titre: "API",
         categorie: "FRONTEND",
@@ -1093,10 +1090,10 @@ let displayItemsData = [
         indicateur: "",
         Xindicateur: "",
         Yindicateur: "",
-    }//fin FrontEnd
+    }
     ,
     {
-        id: "92",
+        id: 92,
         incontournable: false,
         titre: "Architecture",
         categorie: "BACKEND",
@@ -1108,7 +1105,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "93",
+        id: 93,
         incontournable: false,
         titre: "Conformité",
         categorie: "BACKEND",
@@ -1120,7 +1117,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "94",
+        id: 94,
         incontournable: false,
         titre: "Conformité",
         categorie: "BACKEND",
@@ -1132,7 +1129,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "95",
+        id: 95,
         incontournable: false,
         titre: "Flux",
         categorie: "BACKEND",
@@ -1144,7 +1141,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "96",
+        id: 96,
         incontournable: false,
         titre: "Flux",
         categorie: "BACKEND",
@@ -1156,7 +1153,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "97",
+        id: 97,
         incontournable: false,
         titre: "Performance",
         categorie: "BACKEND",
@@ -1168,7 +1165,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "98",
+        id: 98,
         incontournable: false,
         titre: "Données",
         categorie: "BACKEND",
@@ -1180,7 +1177,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "99",
+        id: 99,
         incontournable: false,
         titre: "Traitement de données",
         categorie: "BACKEND",
@@ -1192,7 +1189,7 @@ let displayItemsData = [
     }
     ,
     {
-        id: "100",
+        id: 100,
         incontournable: false,
         titre: "Sécurité",
         categorie: "BACKEND",
@@ -1201,6 +1198,6 @@ let displayItemsData = [
         indicateur: "(X / Y ) * 100",
         Xindicateur: "Données sensibles analysées",
         Yindicateur: "Données sensibles",
-    }//fin BackEnd
-    
+    }
+
 ];
