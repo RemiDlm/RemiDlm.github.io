@@ -1,5 +1,9 @@
 let shoppingCart = document.getElementById("shopping-cart");
 let empty = document.getElementById("empty");
+let contentTable = document.getElementById("content-table");
+let titleTable = document.getElementById("title-table");
+let end = document.getElementById("end");
+
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 let List = [];
@@ -15,15 +19,17 @@ cartRefresh();
 let generateCartItems = () => {
     if (basket.length !== 0) {
         empty.innerHTML = `
-        <h2>Voici les elements selectionnés selectionnés</h2>
-        <button onclick="clearCart()">Clear Cart</button>
+        <h2>Votre panier</h2>
+        <button onclick="showAll()">Valider mon panier</button>
+        <button onclick="clearCart()">Vider mon panier</button>
+        
         `;
         return (shoppingCart.innerHTML = basket.map((x) => {
             let { id, item } = x;
             let search = displayItemsData.find((y) => y.id == id) || [];
             return `
             
-            <div class="cart-item">
+            <div class="cart-item-${search.incontournable}">
                 <h2>${search.titre}</h2>
                 <p>${search.criteres}</p>
                 <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
@@ -33,9 +39,9 @@ let generateCartItems = () => {
     } else {
         shoppingCart.innerHTML = ``;
         empty.innerHTML = `
-        <h2>Cart is empty<h2>
-        <a href="list.html">
-            <button class="homeBtn">Back to shopping</button>
+        <h2>Votre panier est vide<h2>
+        <a href="index.html">
+            <button class="addst" >Commencer mon shopping</button>
         </a>
         `;
     }
@@ -68,7 +74,6 @@ let generateExportList = () => {
 
 generateCartItems();
 generateExportList();
-
 
 let removeItem = (id) => {
     let selectedItem = id;
@@ -112,4 +117,40 @@ function dl(fileName) {
 
     link.click();
     link.remove();
+};
+
+function tableShowUp() {
+
+    titleTable.innerHTML = `
+                <tr>
+                    <td>Intitulé</td>
+                    <td>Phase du projet</td>
+                    <td>Etape clef</td>
+                    <td>Indicateur de réalisation</td>
+
+                </tr>
+    `
+    return (contentTable.innerHTML = List.map((x) => {
+        let { titre, categorie, criteres, cycledevie, indicateur, Xindicateur, Yindicateur } = x;
+        return `
+                <tr>
+                    <td>${criteres}</td>
+                    <td>${cycledevie}</td>
+                    <td>${titre}</td>
+                    <td>${indicateur}, ${Xindicateur}, ${Yindicateur}</td>
+                <tr>
+                `;
+    }).join("")
+    );
+};
+
+function showButton() {
+        end.innerHTML = `
+        <button onclick="dl('Bonnes_pratiques.csv')">Télécharger en ficher CSV</button>`
+};
+
+
+function showAll() {
+    tableShowUp();
+    showButton();
 };

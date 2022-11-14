@@ -15,8 +15,8 @@
 
 <header>
     <nav>
-        <a class="navTxt" href="index.html">Home</a>
-        <a class="navTxt" href="list.html">Liste</a>
+        <a class="navTxt">D4G</a>
+        <a class="navTxt" href="index.html">Bonnes pratiques</a>
         <cart>
             <a href="cart.html">
                 <i class="bi bi-bag"></i>
@@ -32,10 +32,14 @@
 
     <table class="shopping-cart" id="shopping-cart"></table>
     <div class="makecenter" id="end">
-        <button onclick="dl('Export.csv')">Export</button>
+        <button onclick="showAll()">Valider mon panier</button>
+        
     </div>
-
-
+    <table>
+        <thead id="title-table"></thead>
+        <tbody id="content-table"></tbody>
+    </table>
+    <div class="makecenter" id="end"></div>
 </body>
 
 <script src="scr/data.js"></script>

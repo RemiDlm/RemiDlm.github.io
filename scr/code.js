@@ -6,22 +6,22 @@ let basket = JSON.parse(localStorage.getItem("data")) || [];
 let generateDisplay = () => {
     return (display.innerHTML = displayItemsData
         .map((x) => {
-            let { id, titre, criteres } = x;
+            let { id, titre, criteres,incontournable, categorie } = x;
             let search = basket.find((x) => x.id === id) || [];
             return `
-        <div id=item-id-${id} class="item">
+        <div id=item-id-${id} class="item-${incontournable}">
+            
             <h3>${titre}</h3>
             <p>
                 ${criteres}
             </p>
-            <button onclick="add(${id})" ${search.item === undefined ? 0 : search.item}>
+            <button onclick="add(${id})" class="adds-${incontournable}" ${search.item === undefined ? 0 : search.item}>
                 
-                Add
+                Ajouter au panier
             </button>
         </div>
     `;
         }).join(""));
-
 };
 
 generateDisplay();
@@ -48,8 +48,6 @@ let add = (id) => {
     localStorage.setItem("data", JSON.stringify(basket));
     console.log(basket);
 };
-
-
 
 let addInctournable = () => {
 
