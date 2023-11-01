@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Product 1",
+        "price": 10.99,
+        "activated": true
+    },
+    {
+        "name": "Product 2",
+        "price": 19.99,
+        "activated": true
+    },
+    {
+        "name": "Product 3",
+        "price": 5.99,
+        "activated": false
+    },
+    {
+        "name": "Product 4",
+        "price": 15.99,
+        "activated": true
+    }
+]

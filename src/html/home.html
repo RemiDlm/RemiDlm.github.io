@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bienvenido</title>
+</head>
+
+<body>
+    <h1>Bienvenido</h1>
+    <div id="userRole">Rol del Usario: <span id="roleValue"></span></div>
+    <div>
+        <button onclick="window.location.href = 'src/html/sales.html?role=' + currentRole">Listar Ventas</button>
+        <button onclick="userProduct()">Listar Productos</button>
+        <button onclick="showAddUserForm()">Agregar Usuarios</button>
+    </div>
+    <div id="productList"></div>
+
+    <div id="addUserForm" style="display: none;">
+        <h2>Agregar Usuario</h2>
+        <form>
+            <label for="newUsername">Nombre:</label>
+            <input type="text" id="newUsername" required><br><br>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" required><br><br>
+
+            <label for="newRole">Rol:</label>
+            <select id="newRole" required>
+                <option value="admin">Admin</option>
+                <option value="assistante">Assistante</option>
+                <option value="vendedor">Vendedor</option>
+            </select><br><br>
+
+            <button type="button" onclick="addUser()">Agregar</button>
+        </form>
+    </div>
+    <script>
+        function showAddUserForm() {
+            if (currentRole !== "admin") {
+                alert("Access denied for non-admin users.");
+            } else {
+                document.getElementById("addUserForm").style.display = "block";
+            }
+        }
+        // Find the user role in the url
+        function getRoleFromQuery() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const role = urlParams.get("role");
+            if (role) {
+                document.getElementById("roleValue").textContent = role;
+            }
+            return role
+        }
+
+        var currentRole = getRoleFromQuery();
+
+    </script>
+    <script src="src/js/actions.js"></script>
+</body>
+
+</html>
