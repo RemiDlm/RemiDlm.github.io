@@ -1,5 +1,5 @@
 function listProducts() {
-    fetch("src/json/products.json")
+    fetch("json/products.json")
         .then(response => response.json())
         .then(products => {
             const productList = document.getElementById("productList");
@@ -30,7 +30,7 @@ document.getElementById("modifyButton").addEventListener("click", function () {
         var nameToDeactivate = prompt("Enter the name of the item to desactivate:");
 
         if (nameToDeactivate) {
-            fetch("src/json/products.json")
+            fetch("json/products.json")
                 .then(response => response.json())
                 .then(products => {
                     const productToDeactivate = products.find(product => product.name === nameToDeactivate);
@@ -71,7 +71,7 @@ document.getElementById("addProductButton").addEventListener("click", function (
                 activated: true
             };
 
-            fetch("src/json/products.json")
+            fetch("json/products.json")
                 .then(response => response.json())
                 .then(products => {
 
