@@ -22,7 +22,7 @@ function addUser() {
             role: newRole
         };
 
-        fetch("src/json/users.json")
+        fetch("json/users.json")
             .then(response => response.json())
             .then(users => {
                 users.push(newUser);
@@ -37,7 +37,7 @@ function addUser() {
 }
 
 function listProducts() {
-    fetch("src/json/products.json")
+    fetch("json/products.json")
         .then(response => response.json())
         .then(products => {
             const productList = document.getElementById("productList");
@@ -65,7 +65,7 @@ function userProduct() {
     const role = urlParams.get("role");
 
     if (role === "admin" || role === "assistente") {                        // Autorisation
-        window.location.href = 'src/html/products.html?role=' + role
+        window.location.href = 'html/products.html?role=' + role
     } else {
         listProducts()
     }
