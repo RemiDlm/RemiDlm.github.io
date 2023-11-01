@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {     // Need to modif
     }
 
     function loadData() {
-        fetch("json/sales.json")
+        fetch("../json/sales.json")
             .then(function (response) {
                 return response.json();
             })
