@@ -11,7 +11,7 @@ function addUser() {
         const newPassword = document.getElementById("newPassword").value;
         const newRole = document.getElementById("newRole").value;
 
-        if (newRole !== "admin" && newRole !== "assistant" && newRole !== "seller") {
+        if (newRole !== "admin" && newRole !== "assistente" && newRole !== "vendedor") {
             alert("Invalid role selection. Please choose a valid role.");
             return;
         }
